@@ -229,7 +229,7 @@ function App() {
 
           <div className="flex justify-center mb-6">
             <img
-              src="/Logo.jpeg"
+              src="/Logo.webp"
               alt="Bakso Balung Majesty Logo"
               className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-gold-400 shadow-2xl shadow-gold-500/30 animate-float"
             />
@@ -318,7 +318,7 @@ function App() {
               <div className="md:flex">
                 <div className="md:w-1/2 relative bg-teal-700 flex items-center justify-center overflow-hidden min-h-[280px]">
                   <img
-                    src="/images/bakso_balung_beranak+coloring.png"
+                    src="/images/bakso_balung_beranak+coloring.webp"
                     alt="Bakso Balung Beranak"
                     className="w-full h-full object-cover"
                   />
