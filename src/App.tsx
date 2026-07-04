@@ -30,7 +30,7 @@ function App() {
       price: "Rp 10.000",
       desc: "Bakso babi kenyal pilihan disajikan dalam kuah kaldu bening yang gurih. Simple, nikmat, dan bikin nagih!",
       badge: null,
-      image: "/images/bakso_biasa.png",
+      image: "/images/bakso_biasa.webp",
       imgBg: "bg-warm-100",
     },
     {
@@ -38,7 +38,7 @@ function App() {
       price: "Rp 10.000",
       desc: "Menu basic legendaris. Kombinasi bakso babi kenyal berpadu sempurna dengan kuah kaldu hangat dan balung babi pilihan.",
       badge: null,
-      image: "/images/bakso_balung_biasa.png",
+      image: "/images/bakso_balung_biasa.webp",
       imgBg: "bg-warm-50",
     },
     {
@@ -46,7 +46,7 @@ function App() {
       price: "Rp 15.000",
       desc: "Porsi khusus buat kamu yang pengen fokus menikmati kelembutan daging balung babi yang gurih tanpa bakso.",
       badge: null,
-      image: "/images/balung_biasa.png",
+      image: "/images/balung_biasa.webp",
       imgBg: "",
     },
     {
@@ -54,7 +54,7 @@ function App() {
       price: "Rp 20.000",
       desc: "Kombinasi super puas! Bakso jumbo isi daging cincang + telur puyuh + limpahan balung ekstra empuk.",
       badge: "Best Seller",
-      image: "/images/bakso_balung_beranak+coloring.png",
+      image: "/images/bakso_balung_beranak+coloring.webp",
       imgBg: "bg-teal-600",
     },
     {
@@ -62,7 +62,7 @@ function App() {
       price: "Rp 20.000",
       desc: "Varian eksklusif untuk pencinta kuliner babi sejati. Porsi balung pilihan dan tetelan melimpah memanjakan lidah.",
       badge: "Spesial",
-      image: "/images/bakso_balung_spesial+coloring.png",
+      image: "/images/bakso_balung_spesial+coloring.webp",
       imgBg: "bg-warm-100",
     },
   ];
@@ -149,7 +149,7 @@ function App() {
           <div className="flex items-center justify-between h-16 md:h-20">
             <div className="flex items-center gap-3">
               <img
-                src="/Logo.jpeg"
+                src="/Logo.webp"
                 alt="Bakso Balung Majesty"
                 className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover border-2 border-gold-400 shadow-lg"
               />
@@ -347,10 +347,10 @@ function App() {
                       puyuh, dan bakso kecil. Disajikan lengkap dengan potongan
                       balung babi yang empuk dan kuah kaldu super gurih.
                     </p>
-                    <div className="flex items-center justify-between pt-4 border-t border-white/10">
+                    <div className="items-center justify-between pt-4 border-t border-white/10">
                       <div>
                         <p className="text-white/40 text-sm">Hanya</p>
-                        <p className="text-3xl font-bold text-gold-400">
+                        <p className="text-3xl font-bold text-gold-400  mb-4">
                           Rp 20.000
                         </p>
                       </div>
@@ -836,7 +836,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-white/30 text-sm">
-            &copy; 2024 Bakso Balung Majesty. Semua hak dilindungi.
+            &copy; 2026 Bakso Balung Majesty. Semua hak dilindungi.
           </div>
         </div>
       </footer>
