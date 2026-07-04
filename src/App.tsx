@@ -810,7 +810,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3">
               <img
-                src="/Logo.jpeg"
+                src="/Logo.webp"
                 alt="Bakso Balung Majesty"
                 className="w-12 h-12 rounded-full object-cover border-2 border-gold-500/50"
               />
