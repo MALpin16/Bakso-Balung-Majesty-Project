@@ -715,7 +715,7 @@ function App() {
                   href="https://maps.google.com/?q=C6CF+59C+Abiansemal+Bali"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-white text-primary-700 px-5 py-2.5 rounded-full font-bold hover:bg-gold-50 transition-colors shadow-lg"
+                  className="inline-flex items-center gap-2 bg-white text-primary-700 px-5 py-2.5 rounded-full font-bold hover:scale-105 transition-all shadow-lg"
                 >
                   <MapPin className="w-4 h-4" />
                   Buka Google Maps
@@ -723,7 +723,7 @@ function App() {
               </div>
             </div>
 
-            <div className="relative bg-gradient-to-br from-dark-800 to-dark-900 rounded-3xl p-8 text-white overflow-hidden border border-white/5">
+            <div className="relative bg-gradient-to-br from-yellow-500 to-yellow-800 rounded-3xl p-8 text-white overflow-hidden border ">
               <div
                 className="absolute inset-0 opacity-5"
                 style={{
@@ -733,7 +733,7 @@ function App() {
                 }}
               />
               <div className="relative">
-                <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold mb-5 text-white/70 border border-white/15">
+                <div className="inline-flex items-center gap-2 bg-black/10 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-bold mb-5 text-white/90 border border-white/15">
                   <MapPin className="w-3.5 h-3.5" />
                   Cabang Kedua
                 </div>
@@ -752,7 +752,7 @@ function App() {
                   href="https://maps.google.com/?q=C688+G3R+Darmasaba+Bali"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white px-5 py-2.5 rounded-full font-bold transition-colors"
+                  className="inline-flex items-center gap-2 bg-white text-primary-700 border hover:scale-105 border-white/20 text-black px-5 py-2.5  rounded-full font-bold transition-all"
                 >
                   <MapPin className="w-4 h-4" />
                   Buka Google Maps
